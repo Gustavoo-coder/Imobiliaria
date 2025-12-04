@@ -14,13 +14,16 @@ Design Responsivo: Adaptação a diferentes tamanhos de tela (Desktop, Tablet e 
 Navegação Fixa: Menu de navegação intuitivo e acessível.
 
 📸 Demonstração Visual
-- ![Versão desktop]()
+- ![Versão desktop](https://github.com/Gustavoo-coder/Imobiliaria/blob/main/imgs/imobiliaria_gif.gif)
 
 
 
 🌐 Acessar Projeto
 Ver Online: [https://imobiliaria-sigma-three.vercel.app/]
 
+⚠️ Atenção:
+Este projeto ainda não possui responsividade implementada. 
+As próximas atualizações incluirão adaptações para telas menores (mobile e tablet).
 
 ✒️ Autor
 Gustavo
