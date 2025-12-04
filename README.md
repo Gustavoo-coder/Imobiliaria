@@ -13,14 +13,14 @@ Listagem de Imóveis: Seção organizada com cards de propriedades.
 Design Responsivo: Adaptação a diferentes tamanhos de tela (Desktop, Tablet e Mobile).
 Navegação Fixa: Menu de navegação intuitivo e acessível.
 
-📸 Demonstração Visual (Desktop)
-- ja faço
+📸 Demonstração Visual
+- ![Versão desktop]()
+
+
 
 🌐 Acessar Projeto
-O projeto pode ser visualizado online através do GitHub Pages (se você configurou) ou localmente.
-Ver Online: [Link para o site hospedado, se houver]
-Executar Localmente:
-Clone o repositório: git clone github.com
-Abra o arquivo index.html no seu navegador favorito.
+Ver Online: [https://imobiliaria-sigma-three.vercel.app/]
+
+
 ✒️ Autor
 Gustavo
