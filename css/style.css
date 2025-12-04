@@ -1,0 +1,175 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Tahoma;
+}
+
+:root{
+  --cor-estilo-link: #1d1d1d;
+  --sub-cor-Fundo:#1D80C1;
+  
+  /*Estilos de atenção - texto(strong)*/
+  --cor-estilo-destaque:#1D83C8;
+  --sub-estilo-destaque:#FEF52F;
+
+  /*Estilização dos paragrafos(p)*/
+  --tamanho-paragrafo: 18px;
+  --altura--linha--paragrafo:28px;
+  --alinhamento--paragrafo: justify;
+  --largura--paragrafo: 980px;
+}
+
+main{
+text-align: center;
+}
+
+/*Estilos navegação - sobre*/
+.navegacao{
+  list-style: none;
+}
+
+#log_casa{
+  background-color: #B0DDFC;
+  padding: 30px 0;
+}
+
+.navegacao{
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  gap: 40px;
+}
+
+.link_side{
+font-size: 18px;
+text-decoration: none;
+color:var(--cor-estilo-link);
+border-bottom: 2px #1d1d1d solid;
+}
+
+
+/*Estilos seção 01*/
+.sec_1 img {
+padding: 30px 0;
+}
+
+.sec_1 strong{
+  color:var(--cor-estilo-destaque);
+}
+
+#subTitulo_impac{
+  color:var(--cor-estilo-destaque);
+  font-weight:bold;
+  font-size: 18px;
+}
+
+.sec_1 p{
+width: 980px;
+text-align: var(--alinhamento--paragrafo);
+font-size: var(--tamanho-paragrafo);
+line-height: var(--altura--linha--paragrafo);
+margin: 0 auto;
+}
+
+
+/*Estilos seção 02*/
+.sec_2{
+  background-color: var(--sub-cor-Fundo);
+  height:530px;
+  margin: 30px 0;
+}
+
+.sec_2 h2{
+  color: white;
+  padding: 30px 0;
+  font-size: 24px;
+  line-height: 42px;
+}
+
+.sec_2 p{
+  font-size: 22px;
+  color: white;
+  line-height: 42px;
+  text-align: center;
+  width: 700px;
+  margin: 0 auto;
+}
+
+.sec_2 strong{
+color: var(--sub-estilo-destaque);
+}
+
+.sec_2 ul{
+  color: white;
+  line-height: 42px;
+  margin: 20px auto;
+  text-align: left;
+  font-size: 20px;
+  width: 135px;
+
+}
+
+/*Estilos seção 03*/
+.sec_3 h2 {
+color: var(--sub-cor-Fundo);
+padding: 30px 0;
+}
+
+.sec_3 p{
+width: 980px;
+text-align: var(--alinhamento--paragrafo);
+font-size: var(--tamanho-paragrafo);
+line-height: var(--altura--linha--paragrafo);
+margin: 0 auto;
+}
+
+.sec_3 strong{
+  color: var(--sub-cor-Fundo);
+}
+
+
+
+/*Aplicação de espaçamento nas seções*/
+.sec_2,.sec_3{
+  padding: 30px 0;
+}
+
+
+footer{
+background-color: var(--cor-estilo-destaque);
+height: 800px;
+}
+
+footer h3{
+  color: white;
+  padding: 30px 0;
+  font-size: 24px;
+  line-height: 42px;
+}
+
+footer p{
+  color: white;
+  background-color: var(--cor-estilo-link);
+  width: 900px;
+  padding: 15px;
+  margin: 30px auto;
+}
+
+footer strong{
+  color: var(--sub-estilo-destaque);
+}
+
+footer ul li {
+  list-style: none;
+  margin: 20px auto;
+  padding: 2px 5px;
+}
+
+footer a{
+  background-color: white;
+  color: var(--sub-cor-Fundo);
+  border-radius: 5px;
+  padding: 2px 5px;
+  font-size: 22px;
+}
